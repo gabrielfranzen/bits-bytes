@@ -27,6 +27,28 @@ body{
     background-color: white;
 }
 
+.centrar{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+#banner{
+    background-image: url(imagens/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+.titulo-banner{
+    font-size: clamp(38px, 4vw, 60px);
+    color: white;
+    font-weight: bolder;
+}
+
+
+
 /* HEADER */
 header {
     display: flex;
