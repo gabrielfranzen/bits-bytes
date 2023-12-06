@@ -186,6 +186,7 @@ section{
 
 /* FOOTER */
 footer{
+    margin-top: 130px;
     padding: 30px 0px;
     color: white;
     text-align: center;
